@@ -1,6 +1,5 @@
 
 body{
-    /* background-color: rgba(182, 174, 174, 0.548); */
     background-color: lightblue;
 }
 
@@ -9,6 +8,7 @@ body{
 #play-area{
     width: 70%;
     height: 60%;
+    cursor: url(img/hammer.png), auto;
 }
 
 
@@ -23,7 +23,7 @@ body{
 
 
 .dirt{
-    background-image: url(/img/dirt-png-43615.png);
+    background-image: url(/img/dirt.png);
     z-index: 1;
     width: 150px;
     height: 150px;
@@ -31,7 +31,7 @@ body{
 }
 
 .mole{
-    background-image: url(/img/mole-1.png);
+    background-image: url(/img/mole.png);
     top: 16%;
     left:10%;
     width: 106px;
