@@ -23,7 +23,7 @@ body{
 
 
 .dirt{
-    background-image: url(/img/dirt.png);
+    background-image: url(./img/dirt.png);
     z-index: 1;
     width: 150px;
     height: 150px;
@@ -31,7 +31,7 @@ body{
 }
 
 .mole{
-    background-image: url(/img/mole.png);
+    background-image: url(./img/mole.png);
     top: 16%;
     left:10%;
     width: 106px;
