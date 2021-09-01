@@ -1,0 +1,75 @@
+
+body{
+    /* background-color: rgba(182, 174, 174, 0.548); */
+    background-color: lightblue;
+}
+
+/* ###################### play-area styling ############################# */
+
+#play-area{
+    width: 70%;
+    height: 60%;
+}
+
+
+.ground{
+    width: 25%;
+}
+
+.wrapper{
+    width: 200px;
+    height: 200px;
+}
+
+
+.dirt{
+    background-image: url(/img/dirt-png-43615.png);
+    z-index: 1;
+    width: 150px;
+    height: 150px;
+    left: 0;
+}
+
+.mole{
+    background-image: url(/img/mole-1.png);
+    top: 16%;
+    left:10%;
+    width: 106px;
+    height: 102px;
+    transition: all 0.3s ease-in;
+}
+
+.dirt,
+.mole{
+    position: absolute;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+
+.ground.rise .mole{
+        top: -10% !important;
+}
+
+
+
+/* ################# game over ########################## */
+
+
+#game-over img{
+    height: 300px;
+    width: 500px;
+    position: absolute;
+    z-index: 5;
+    top: 30%;
+    left: 30%;
+    
+}
+
+#game-over button{
+    position: absolute;
+    z-index: 5;
+    top: 4%;
+    left: 45%;
+}
+
